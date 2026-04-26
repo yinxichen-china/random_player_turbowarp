@@ -136,7 +136,6 @@ class RandomTools {
     };
   }
 
-  // 动态角色菜单 + 默认当前选中角色
   _getSpriteList() {
     const list = [];
     const currentName = vm.editingTarget?.getName() || '';
